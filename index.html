@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlowDecor - Event Lighting & Decoration</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1>GlowDecor - Event Lighting & Decoration</h1>
+    </header>
+
+    <section class="gallery">
+        <img src="images/lightning1.webp" alt="Lighting 1">
+        <img  src="images/lightning2.jpg" alt="Lighting 2">
+        <img  src="images/lightning3.jpeg" alt="Lighting 3">
+        <img src="images/lightning4.webp" alt="Lighting 4">
+    </section>
+
+    <section class="form-section">
+        <h2>Get Your Lighting Suggestion</h2>
+        <form id="lightingForm">
+            <label for="eventType">Select Event Type:</label>
+            <select id="eventType" name="eventType">
+                <option value="wedding">Wedding</option>
+                <option value="birthday">Birthday Party</option>
+                <option value="concert">Concert</option>
+                <option value="corporate">Corporate Event</option>
+            </select>
+            <button type="submit">Get Suggestion</button>
+        </form>
+        <p id="suggestion"></p>
+    </section>
+
+    <script src="/script.js"></script>
+</body>
+</html>
